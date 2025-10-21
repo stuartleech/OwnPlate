@@ -36,7 +36,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-8 mb-16">
           <div className="bg-white p-6 rounded-xl shadow-md">
             <div className="text-4xl mb-4">📖</div>
-            <h3 className="text-xl font-semibold mb-2">Manage Recipes</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">Manage Recipes</h3>
             <p className="text-gray-600">
               Add your favorite vegetarian recipes or import them via CSV. Build your personal recipe collection.
             </p>
@@ -44,7 +44,7 @@ export default function Home() {
 
           <div className="bg-white p-6 rounded-xl shadow-md">
             <div className="text-4xl mb-4">🗓️</div>
-            <h3 className="text-xl font-semibold mb-2">Plan Your Week</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">Plan Your Week</h3>
             <p className="text-gray-600">
               Select 5 dinners each week. Get smart suggestions based on ingredients you already have.
             </p>
@@ -52,7 +52,7 @@ export default function Home() {
 
           <div className="bg-white p-6 rounded-xl shadow-md">
             <div className="text-4xl mb-4">🛒</div>
-            <h3 className="text-xl font-semibold mb-2">Smart Shopping Lists</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">Smart Shopping Lists</h3>
             <p className="text-gray-600">
               Auto-generated lists that combine quantities and separate fresh items from pantry staples.
             </p>
@@ -66,28 +66,28 @@ export default function Home() {
             <div className="flex gap-3">
               <div className="text-2xl">♻️</div>
               <div>
-                <h4 className="font-semibold mb-1">Reduce Waste</h4>
+                <h4 className="font-semibold mb-1 text-gray-900">Reduce Waste</h4>
                 <p className="text-gray-600">No more single-use sauce sachets or excessive plastic packaging</p>
               </div>
             </div>
             <div className="flex gap-3">
               <div className="text-2xl">💰</div>
               <div>
-                <h4 className="font-semibold mb-1">Save Money</h4>
+                <h4 className="font-semibold mb-1 text-gray-900">Save Money</h4>
                 <p className="text-gray-600">Buy quality ingredients yourself at better prices</p>
               </div>
             </div>
             <div className="flex gap-3">
               <div className="text-2xl">🥬</div>
               <div>
-                <h4 className="font-semibold mb-1">Quality Control</h4>
+                <h4 className="font-semibold mb-1 text-gray-900">Quality Control</h4>
                 <p className="text-gray-600">Choose exactly the ingredients and brands you trust</p>
               </div>
             </div>
             <div className="flex gap-3">
               <div className="text-2xl">🎯</div>
               <div>
-                <h4 className="font-semibold mb-1">Smart Pantry</h4>
+                <h4 className="font-semibold mb-1 text-gray-900">Smart Pantry</h4>
                 <p className="text-gray-600">Track staples and use them across multiple recipes</p>
               </div>
             </div>

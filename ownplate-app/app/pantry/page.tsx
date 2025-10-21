@@ -86,7 +86,7 @@ export default function PantryPage() {
       {allStaples.length === 0 ? (
         <div className="bg-white rounded-lg shadow p-12 text-center">
           <div className="text-6xl mb-4">🥫</div>
-          <h2 className="text-2xl font-semibold mb-2">No staples yet</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-gray-900">No staples yet</h2>
           <p className="text-gray-600 mb-6">
             Add recipes with staple ingredients first, then they'll appear here
           </p>

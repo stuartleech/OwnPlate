@@ -65,7 +65,7 @@ export default async function RecipeDetailPage({ params }: { params: { id: strin
 
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h2 className="text-2xl font-semibold mb-4">Ingredients</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-gray-900">Ingredients</h2>
               <ul className="space-y-2">
                 {ingredients.map((ingredient, index) => (
                   <li key={index} className="flex items-start gap-2">
@@ -84,7 +84,7 @@ export default async function RecipeDetailPage({ params }: { params: { id: strin
             </div>
 
             <div>
-              <h2 className="text-2xl font-semibold mb-4">Instructions</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-gray-900">Instructions</h2>
               <div className="prose max-w-none">
                 {recipe.instructions ? (
                   <p className="whitespace-pre-wrap text-gray-700">{recipe.instructions}</p>

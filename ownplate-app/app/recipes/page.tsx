@@ -47,7 +47,7 @@ export default async function RecipesPage() {
       {recipes.rows.length === 0 ? (
         <div className="bg-white rounded-lg shadow p-12 text-center">
           <div className="text-6xl mb-4">📖</div>
-          <h2 className="text-2xl font-semibold mb-2">No recipes yet</h2>
+          <h2 className="text-2xl font-semibold mb-2 text-gray-900">No recipes yet</h2>
           <p className="text-gray-600 mb-6">Start building your recipe collection</p>
           <Link
             href="/recipes/new"
@@ -61,7 +61,7 @@ export default async function RecipesPage() {
           {recipes.rows.map((recipe) => (
             <div key={recipe.id} className="bg-white rounded-lg shadow hover:shadow-md transition">
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">{recipe.name}</h3>
+                <h3 className="text-xl font-semibold mb-2 text-gray-900">{recipe.name}</h3>
                 <div className="flex gap-4 text-sm text-gray-600 mb-4">
                   <span>🥘 {recipe.servings} servings</span>
                   <span>🛒 {recipe.ingredient_count} ingredients</span>

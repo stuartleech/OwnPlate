@@ -78,7 +78,7 @@ export default async function DashboardPage() {
 
       {/* Quick Actions */}
       <div className="bg-white rounded-lg shadow p-6">
-        <h2 className="text-xl font-semibold mb-4">Quick Actions</h2>
+        <h2 className="text-xl font-semibold mb-4 text-gray-900">Quick Actions</h2>
         <div className="grid md:grid-cols-2 gap-4">
           <Link
             href="/recipes/new"
