@@ -170,7 +170,7 @@ export default function NewRecipePage() {
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                   placeholder="e.g., Vegetarian Stir Fry"
                 />
               </div>
@@ -184,7 +184,7 @@ export default function NewRecipePage() {
                   value={servings}
                   onChange={(e) => setServings(parseInt(e.target.value))}
                   min="1"
-                  className="w-32 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-32 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                 />
               </div>
 
@@ -200,7 +200,7 @@ export default function NewRecipePage() {
                         value={ingredient.name}
                         onChange={(e) => updateIngredient(index, "name", e.target.value)}
                         placeholder="Ingredient name"
-                        className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                        className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                       />
                       <input
                         type="number"
@@ -208,14 +208,14 @@ export default function NewRecipePage() {
                         onChange={(e) => updateIngredient(index, "quantity", parseFloat(e.target.value))}
                         placeholder="Qty"
                         step="0.01"
-                        className="w-24 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                        className="w-24 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                       />
                       <input
                         type="text"
                         value={ingredient.unit}
                         onChange={(e) => updateIngredient(index, "unit", e.target.value)}
                         placeholder="Unit"
-                        className="w-24 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                        className="w-24 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                       />
                       <label className="flex items-center gap-2 whitespace-nowrap">
                         <input
@@ -255,7 +255,7 @@ export default function NewRecipePage() {
                   value={instructions}
                   onChange={(e) => setInstructions(e.target.value)}
                   rows={6}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                   placeholder="Step-by-step cooking instructions..."
                 />
               </div>
@@ -305,7 +305,7 @@ export default function NewRecipePage() {
                   type="file"
                   accept=".csv"
                   onChange={(e) => setCsvFile(e.target.files?.[0] || null)}
-                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                 />
               </div>
 

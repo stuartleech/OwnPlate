@@ -154,7 +154,7 @@ export default function MealPlanPage() {
               type="date"
               value={weekStartDate}
               onChange={(e) => setWeekStartDate(e.target.value)}
-              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
             />
           </div>
 
@@ -189,7 +189,7 @@ export default function MealPlanPage() {
                           selectRecipe(recipe.id, recipe.name, index);
                         }
                       }}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent text-gray-900"
                     >
                       <option value="">Select a recipe...</option>
                       {recipes.map((recipe) => (
