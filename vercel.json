@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "buildCommand": "cd ownplate-app && npm install && npm run build",
-  "outputDirectory": "ownplate-app/.next",
-  "devCommand": "cd ownplate-app && npm run dev",
-  "installCommand": "cd ownplate-app && npm install"
-}
-

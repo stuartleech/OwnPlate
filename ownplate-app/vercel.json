@@ -1,5 +1,0 @@
-{
-  "buildCommand": "cd ownplate-app && npm run build",
-  "installCommand": "cd ownplate-app && npm install"
-}
-
