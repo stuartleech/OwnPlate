@@ -1,6 +1,5 @@
 {
-  "env": {
-    "NEXTAUTH_URL": "https://your-domain.vercel.app"
-  }
+  "buildCommand": "cd ownplate-app && npm run build",
+  "installCommand": "cd ownplate-app && npm install"
 }
 
